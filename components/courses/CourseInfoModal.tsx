@@ -2,7 +2,7 @@ import React from "react";
 import {
   GetCohortsRequest,
   Schedule,
-} from "../../../shared/models/requests/getCohortsRequest";
+} from "@/models/requests/getCohortsRequest";
 
 interface CourseInfoModalProps {
   cohort: GetCohortsRequest;
