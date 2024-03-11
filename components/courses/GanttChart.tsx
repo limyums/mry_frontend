@@ -5,7 +5,7 @@ import Grid from "./Grid";
 import Cohorts from "./Cohorts";
 import TimeTable from "./TimeTable";
 import { cohorts } from "../../app/mocks/cohortData";
-import { GetCohortsRequest } from "../../../shared/models/requests/getCohortsRequest";
+import { GetCohortsRequest } from "@/models/requests/getCohortsRequest";
 
 const GanttChart = () => {
   const [cohortsData, setCohortsData] = useState<GetCohortsRequest[]>(cohorts);

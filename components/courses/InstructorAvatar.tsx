@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { Schedule } from "../../../shared/models/requests/getCohortsRequest";
+import { Schedule } from "@/models/requests/getCohortsRequest";
 
 interface InstructorAvatarProps {
   schedule: Schedule;
   open: { [key: string]: boolean };
   setOpen: (open: { [key: string]: boolean }) => void;
-};
+}
 
 const InstructorAvatar = ({
   schedule,

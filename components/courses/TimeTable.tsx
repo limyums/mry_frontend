@@ -12,7 +12,10 @@ import {
 import InstructorAvatar from "./InstructorAvatar";
 import InstructorInfoModal from "./InstructorInfoModal";
 import CourseInfoModal from "./CourseInfoModal";
-import { GetCohortsRequest, Schedule } from "../../../shared/models/requests/getCohortsRequest";
+import {
+  GetCohortsRequest,
+  Schedule,
+} from "@/models/requests/getCohortsRequest";
 
 interface CohortsProps {
   cohorts: GetCohortsRequest[];

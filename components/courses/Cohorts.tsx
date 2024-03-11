@@ -1,5 +1,5 @@
 import React from "react";
-import { GetCohortsRequest } from "../../../shared/models/requests/getCohortsRequest";
+import { GetCohortsRequest } from "@/models/requests/getCohortsRequest";
 
 interface CohortsProps {
   cohorts: GetCohortsRequest[];

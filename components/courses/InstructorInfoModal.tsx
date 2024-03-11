@@ -1,5 +1,5 @@
 import React from "react";
-import { Schedule } from "../../../shared/models/requests/getCohortsRequest";
+import { Schedule } from "@/models/requests/getCohortsRequest";
 
 interface InstructorInfoModalProps {
   schedule: Schedule;
