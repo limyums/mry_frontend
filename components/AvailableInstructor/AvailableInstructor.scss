@@ -1,0 +1,65 @@
+@import "/app/globals.scss";
+
+.instructor {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba($gray, 0.2) 0px 0px 0px 1px;
+  border-radius: 5px;
+  &_list {
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    li {
+      position: relative;
+      img {
+        border-radius: 50%;
+      }
+      div {
+        display: none;
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        background-color: white;
+        color: $gray;
+        padding: 0.5rem 1rem;
+      }
+    }
+    li:hover {
+      div {
+        display: block;
+      }
+    }
+  }
+  div {
+    padding: 0.5rem 1rem;
+    p {
+      font-weight: 500;
+    }
+  }
+  .available {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: $light-green;
+    p {
+      color: $primary-color;
+    }
+  }
+  .preference {
+    background-color: $light-orange;
+    p {
+      color: $red;
+    }
+  }
+  .unavailable {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: $light-gray;
+    p {
+      color: $gray;
+    }
+  }
+}

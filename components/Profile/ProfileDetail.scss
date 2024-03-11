@@ -1,0 +1,110 @@
+@import "/app/globals.scss";
+
+.profile_detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  li {
+    display: flex;
+    gap: 1rem;
+    div:nth-child(1) {
+      width: 15%;
+      font-weight: 500;
+    }
+    div:nth-child(2) {
+      width: 60%;
+    }
+    p {
+      font-size: 1rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      width: fit-content;
+    }
+    .active {
+      background-color: $light-green;
+      color: $green;
+    }
+    .inActive {
+      background-color: $light-gray;
+      color: $gray;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+    }
+    .hours {
+      background-color: $light-orange;
+      color: $red;
+    }
+    .Morning {
+      background-color: $light-blue;
+      color: $blue;
+    }
+    .Afternoon {
+      background-color: $light-orange;
+      color: $red;
+    }
+    .Evening {
+      background-color: $light-gray;
+      color: $gray;
+    }
+    .Weekend {
+      background-color: $light-pink;
+      color: $red;
+    }
+    .gray {
+      background-color: $light-gray;
+      color: $gray;
+    }
+    .blue {
+      background-color: $light-blue;
+      color: $blue;
+    }
+    .orange {
+      background-color: $light-orange;
+      color: $red;
+    }
+    .pink {
+      background-color: $light-pink;
+      color: $red;
+    }
+    .purple {
+      background-color: $light-purple;
+      color: $purple;
+    }
+    .green {
+      background-color: $light-green;
+      color: $green;
+    }
+  }
+  &_title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    img {
+      border-radius: 50%;
+    }
+  }
+  &_period {
+    div:nth-child(2) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+  &_course {
+    div:nth-child(2) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+  &_preference {
+    div:nth-child(2) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  }
+}

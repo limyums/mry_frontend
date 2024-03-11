@@ -1,0 +1,57 @@
+@import "/app/globals.scss";
+
+.currentuser {
+  cursor: pointer;
+  position: relative;
+  color: $primary-color;
+  button {
+    background-color: Transparent;
+    color: $gray;
+    border: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1rem;
+    img {
+      border-radius: 50%;
+    }
+  }
+  button:hover {
+    background-color: Transparent;
+    color: black;
+    border: none;
+  }
+  &_content {
+    font-size: 0.8rem;
+    display: none;
+    position: absolute;
+    width: 120%;
+    top: 100%;
+    right: 0;
+    background-color: $light-green;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      padding: 0.5rem 1.5rem;
+      border-top: solid 1px rgba($primary-color, 0.25);
+    }
+    li:hover {
+      background-color: white;
+    }
+  }
+}
+
+.open {
+  .currentuser_content {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 480px) {
+}
