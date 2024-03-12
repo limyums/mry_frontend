@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+【UX/UI】
 
-## Getting Started
+![UI](https://github.com/limyums/mry_frontend/assets/133055129/bf23258e-358f-4e36-ba85-36671d46ae79)
 
-First, run the development server:
+【Summary】
+It is a Program Management Application for Conerstone College
+With this application, able to manae program, cohorts, and instroctors
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+【Programing language】
+・HTML/SASS
+TypeScript
+Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+【Development env. & infrastructure】
+・AWS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feature List/Details
+User functions
+・ New registration, login, logout, edit user information
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+DashBoard
 
-## Learn More
+Program
+Providing List, Month, Week style
+Create and Editing Program and courses
 
-To learn more about Next.js, take a look at the following resources:
+Cohort
+Providing Create and Editing Cohorts
+Easy to assgin Available instructor based on instructor's status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Courses
+Providing GanttChart to check cohorts at a glance
+Providing Drag and Drop feature for easy to swap the Instructor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Instructor
+Providing Instructor List with current status and available shift and courses
 
-## Deploy on Vercel
+Notifications
+・If there is conflict or change status from instructor, it will be displayed in the notification list
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Other features
+・Responsive support
+・search cohorts
